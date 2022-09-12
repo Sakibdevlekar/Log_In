@@ -1,0 +1,59 @@
+
+.bgimg
+{
+    height: 100%;
+    width: 100%;
+    background-image: url("../bg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.hederset{
+    padding: 300px;
+    box-sizing: border-box;
+    margin-top: 190px;
+}
+
+.hederset h1{
+    font-size: 70px;
+    font-weight: bolder;
+    font-family:sans-serif ;
+    transition:0.7s ease-in-out;
+
+}
+
+.hederset h1:hover{
+    font-size: 72px;
+    color: rgb(69, 154, 125);
+}
+
+.hederset h6{
+    font-size: 24px;
+    padding:20px ;
+    transition:0.7s ease-in-out;
+}
+.hederset h6:hover{
+    font-size: 26px;
+    color: rgb(69, 154, 125);
+}
+
+@media only screen and (max-width:800px){
+.hederset h1{
+            font-size: 30px;
+            font-weight: bold;
+            font-family: sans-serif ;
+            transition: 0.7s ease;
+}
+
+    .hederset{
+        padding: 300px;
+        box-sizing: border-box;
+        margin-top: 100px;
+}
+.hederset h6{
+    font-size: 16px;
+    padding:20px ;
+    transition:0.7s ease-in-out;
+}
+}
